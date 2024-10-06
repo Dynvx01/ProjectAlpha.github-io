@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opening Animasi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Memanggil file CSS eksternal -->
+</head>
+<body>
+
+    <!-- Form password -->
+    <div id="passwordScreen">
+        <div>
+            <h2>Masukkan Password</h2>
+            <input type="password" id="passwordInput" placeholder="Password">
+            <br>
+            <button onclick="checkPassword()">Masuk</button>
+        </div>
+    </div>
+
+    <!-- Opening screen -->
+    <div id="opening">
+        <h1>Selamat Datang!</h1>
+    </div>
+
+    <!-- Konten utama -->
+    <div class="container">
+        <h1>Hai All, Kenalin Ini Afifah Dina Octaviana</h1>
+        <h2>Hmm Yaa, Pasti Kamu Bingung, Ini Apaan sih wkwk</h2>
+        <h2>Maka </h2>
+        <p>Klik tombol di bawah ini untuk tahu lebih lanjut!</p>
+        <button onclick="showMessage()">KLIK</button>
+        <div id="message"></div>
+    </div>
+
+    <script src="javascript.js"></script> <!-- Memanggil file JavaScript eksternal -->
+
+</body>
+</html>
